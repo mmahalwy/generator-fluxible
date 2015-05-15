@@ -33,7 +33,7 @@ module.exports = yeoman.generators.Base.extend({
         {
             type: 'list',
             name: 'buildSystem',
-            default: 0,
+            default: 1,
             message: 'Which build system do you want to use?',
             choices: ['Grunt', 'Gulp']
         }];
